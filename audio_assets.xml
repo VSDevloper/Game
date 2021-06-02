@@ -1,0 +1,31 @@
+<AudioSystemData name="audio_assets" version="5" triggers="7">
+ <ImplData events="7"/>
+ <Triggers>
+  <Trigger name="Play_TwinStick_music_a">
+   <Event name="TwinStick_music_a_loop.ogg" type="start" volume="-15" loop_count="0"/>
+  </Trigger>
+  <Trigger name="Play_explo_player">
+   <Event name="explo_player.ogg" type="start" volume="-4" loop_count="1"/>
+  </Trigger>
+  <Trigger name="Play_explo_target">
+   <Event name="explo_target.ogg" type="start" volume="-14" loop_count="1"/>
+  </Trigger>
+  <Trigger name="Play_laser_burst_loop">
+   <Event name="laser_burst_loop.ogg" type="start" volume="-17" loop_count="0"/>
+  </Trigger>
+  <Trigger name="Stop_laser_burst_loop">
+   <Event name="laser_burst_loop.ogg" type="stop"/>
+  </Trigger>
+  <Trigger name="Stop_TwinStick_music_a">
+   <Event name="TwinStick_music_a_loop.ogg" type="stop"/>
+  </Trigger>
+  <Trigger name="Play_laser_gunshot_single_a_01">
+   <Event name="laser_gunshot_single_a_01.ogg" type="start" volume="-25" loop_count="1"/>
+  </Trigger>
+ </Triggers>
+ <EditorData>
+  <Library />
+  <Folders />
+  <Controls />
+ </EditorData>
+</AudioSystemData>

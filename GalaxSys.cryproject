@@ -1,0 +1,50 @@
+{
+  "console_commands": {
+    "map": "galaxsys"
+  },
+  "console_variables": {
+    "e_Shadows": "0",
+    "r_HDREyeAdaptationMode": "1",
+    "r_SSReflections": "0",
+    "sys_asserts": "0"
+  },
+  "content": {
+    "assets": [
+      "Assets"
+    ],
+    "code": [
+      "Code"
+    ],
+    "libs": [
+      {
+        "name": "GalaxSys",
+        "shared": {
+          "any": "",
+          "win_x64": "",
+          "win_x86": ""
+        }
+      }
+    ]
+  },
+  "info": {
+    "guid": "323ff9c3-aaab-aaa6-6f82-a0bf4dd27405",
+    "name": "Game"
+  },
+  "require": {
+    "engine": "engine-5.6",
+    "plugins": [
+      {
+        "guid": "",
+        "path": "CryDefaultEntities",
+        "type": "EType::Native"
+      },
+      {
+        "guid": "",
+        "path": "bin/win_x64/Galaxsys.dll",
+        "type": "EType::Native"
+      }
+    ]
+  },
+  "type": "",
+  "version": 4
+}
